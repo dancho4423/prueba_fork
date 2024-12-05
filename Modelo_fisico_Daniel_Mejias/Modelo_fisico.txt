@@ -60,7 +60,7 @@ CREATE TABLE pedido(
     estado boolean not null,
     FOREIGN KEY (platillo) REFERENCES platillo(id_pla));
 
-
+/*INVESTIGAR COMO CREAR UNA VISTA*/ HACER CONSULTA CON INNER JOIN UNIENDO LAS TABLAS.
 CREATE TABLE historial(
     id_historial int not null primary key,
     id_venta int not null,
